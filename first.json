@@ -1,0 +1,48 @@
+{
+  "basics":{
+    "photo":"vidya.png",
+    "name":"Amrutha",
+    "phone":"999999999",
+    "email":"m.amruthav97@gmail.com"
+  },
+  "skills":[
+    {
+      "name":"programing languages",
+      "value":"c,c++,JAVA"
+    },
+    {
+      "name":"operating systems",
+    "value":"windows,linux"
+  },
+  {
+  "name":"web technologies",
+  "value":"html,css,javascript"
+}
+],
+  "education":[
+    {
+      "course":"btech",
+      "college":[
+        "sri venkateswara institute of technology",
+        "2015-2019",
+        "65%"
+      ]
+    },
+    {
+      "course":"mpc",
+      "college":[
+        "narayana jr college",
+        "2013-2015",
+        "80%"
+      ]
+    },
+    {
+      "course":"ssc",
+      "college":[
+        "krcs",
+        "2012-2013",
+        "80%"
+      ]
+    }
+  ]
+}
