@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="manifest" href="favicon/manifest.json">
+  </head>
+  <body>
+    <form class="">
+    <!-- <input type="text" name="name" value=""id="name"><br>
+    <input type="text" name="rollno"value=""id="rollno"><br>
+    <input type="text" name="email "value=""id="email"><br>
+    <input type="button" name="button" onclick="getDetails()">SUBMIT</button> -->
+    <div class="mainDiv">
+      <h1>personal details</h1>
+      <div class="personaldiv">
+        <input type="text" name="name" value=""id="name"placeholder="enter name"><br>
+        <input type="text" name="rollno"value=""id="rollno"placeholder="enter rollno"><br>
+        <input type="text" name="email "value=""id="email"placeholder="enter email"><br>
+      </div>
+      <select class="co"name="co" id="co">
+        <option value="select">Select</option>
+        <option value="hyui">hyui</option>
+        <option value="ryfjk">ryfjk</option>
+      </select>
+      <h4>educational details</h4>
+      <div class="eduDiv">
+        <div class="sscDiv">
+          <select class"ssc" name="" id="sscValue">
+            <option value="cbse">cbse</option>
+            <option value="ssc">ssc</option>
+          </select><br>
+          <input type="radio" name="sscmarks" value="cgpa" id="sscmarks">cgpa<br>
+          <input type="radio" name="sscmarks" value="cgpa"id="sscmarks1">percentage<br>
+          percentage:<input typ="text" name="percentage" value=""placeholder="percentage/cgpa"id="sscpercentage"><br>
+          year of pass:<input type="text"name="yop"value="yop"id="sscyop">
+        </div>
+        <div class="interDiv">
+          <select class"inter" name="inter"id="interValue">
+            <option value="inter">inter</option>
+            <option value="diploma">diploma</option>
+          </select><br>
+          <input type="radio" name="intermarks" value="intercgpa"id="intermarks">cgpa<br>
+          <input type="radio" name="intermarks" value="intercgpa"id="intermarks1">percentage<br>
+          percentage:<input typ="text" name="percentage" value=""placeholder="percentage/cgpa"id="interpercentage"><br>
+          year of pass:<input type="text"name="yop"value="yop" id="interyop">
+        </div>
+        <div class="btechDiv">
+          <select class"btech" name=""id="techValue">
+            <option value="cse">cse</option>
+            <option value="ece">ece</option>
+          </select><br>
+          <input type="radio" name="techmarks" value="techcgpa"id="techmarks">cgpa<br>
+          <input type="radio" name="techmarks" value="techcgpa"id="techmarks1">percentage<br>
+          percentage:<input type="text" name="percentage" value=""placeholder="percentage/cgpa"id="techpercentage"><br>
+          year of pass:<input type="text"name="yop" value="yop" id="techyop">
+        </div>
+      </div>
+    </div>
+      <input type="button" name="button" onclick="getDetails()">SUBMIT</button>
+    </form>
+  </body>
+<script type="text/javascript" src="db.js">
+
+</script>
+<script>
+if('serviceWorker'in navigator){
+  navigator.serviceWorker.register("sw.js");
+  console.log("serviceWorker registered successfully...");
+
+}
+err=>{
+  console.log("error occur in sw");
+}
+</script>
+</html>
